@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background: #aaaaaa;
+}
+ul {
+  list-style: none;
+}
+.bgimg {
+  background-image: url(../img/img.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background: url(pexels-simon-berger-1323550.jpg); */
+  border-radius: 10px 10px 0px 0px;
+}
+.form {
+  width: 600px;
+  background: #ffffff;
+  border-radius: 10px;
+  margin-left: 25%;
+  padding-bottom: 16px;
+  /* margin-top: 15px; */
+}
+.p1 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: "Russo One", sans-serif;
+  color: #ffffff;
+  margin: 7px 7px 0 495px;
+  padding-top: 97px;
+}
+.p2 {
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  margin-left: 373px;
+  padding-bottom: 15px;
+  color: #ffffff;
+}
+#input {
+  width: 440px;
+  height: 46px;
+  background: #ebeff2;
+  border-radius: 5px;
+  margin: 22px 0px 30px 30px;
+  padding-left: 25px;
+}
+#input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #888888;
+}
+#btn {
+  width: 65px;
+  height: 46px;
+  background: #20eeb0;
+  border: 0;
+  border-radius: 5px;
+  margin-top: 22px;
+}
+form {
+  display: flex;
+  gap: 10px;
+}
+.item {
+  display: flex;
+  border: 2px solid #1e90ff;
+  border-radius: 5px;
+  width: 532.31px;
+  margin-left: 32px;
+  padding: 9px 0 9px 9px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #0d0d0d;
+  position: relative;
+  margin-bottom: 16px;
+}
+.krug {
+  position: absolute;
+  left: 472px;
+  width: 20px;
+}
+.icon {
+  position: absolute;
+  width: 20px;
+  left: 500px;
+}
